@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+body{
+    height: 100%; margin: 0;
+    font-family: "Noto Sans JP", sans-selif;
+    background-image: url(../bg-image/tokiwakai.png);
+    background-repeat: no-repeat; background-attachment: fixed;
+    background-size: cover; background-position: center;
+}
+header{
+    width:100%; height:auto;  
+    display: flex; flex-direction:column;
+    padding-left:4%; margin-bottom:40px; 
+}
+img.logo{ width:360px; margin-top: 20px; margin-left: 12%; 
+}
+a.top{color: black; font-size:16px; 
+    text-align:right; padding-right: 12%;
+}
+
+/* 本文記事 */
+main.container{margin-top:40px; margin-bottom:60px;
+    width:80%; padding-left:8%; color:black;
+}
+.intro{margin-bottom:40px; font-size:14px;}
+table.briefing{width:100%;}
+tr,td{border-bottom:dotted 1px rgba(99, 6, 6, 0.711);
+    padding:12px;}
+
+/* 会則 */
+.official{
+    color:black; 
+}
+h2.rule{margin-bottom:24px}
+table.article{ padding-left:12px; font-size:12px;
+}
+table tr,td{ table-layout: auto; padding: 0px 8px;}
+
+
