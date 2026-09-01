@@ -1,0 +1,42 @@
+*{margin:0; padding:0;}
+body{
+    font-family: "Noto Sans JP", sans-selif;
+}
+header{
+    width:100%; 
+    position:relative; 
+}
+img.backimage{
+    width:100%; height:auto;
+}
+img.title{
+    position:absolute; top:40px; left:12%;}
+.top{color: white; 
+    position:absolute; top:60%;left:64%;
+}
+
+/* 週間スケジュール */
+aside.briefing{
+    margin-top: 40px;  padding-left:8%;
+}
+p.guidance{ width:80%;  margin-left:8%;
+    font-size:14px; color:rgb(79, 13, 13);}
+table.weekplan{
+    width:80%; margin-left:8%; margin-bottom:60px;
+    font-size:14px; color:black;
+    border-collapse: collapse; border: solid 1px  brown;
+}
+th,td{border: dotted 1px brown; padding-left:8px;}
+tr.iro{background-color: rgba(222, 222, 193, 0.931);}
+td{padding-left:12px;}
+
+/* 各サークルのガイダンス */
+main.container{
+    width:100%; margin:24px 8% 40px 12%;
+    display:flex; flex-wrap: wrap;
+}
+.box{ width:200px; height:auto;
+    margin-right:4%; margin-bottom: 12px;}
+p.exp{
+    font-size:12px; font-weight:400; color:rgb(44, 15, 15)
+}

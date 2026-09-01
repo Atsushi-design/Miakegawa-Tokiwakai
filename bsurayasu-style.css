@@ -1,0 +1,57 @@
+*{margin:0px; padding:0px;}
+body{
+    font-family: "Noto Sans JP", sans-selif;
+    background-image: url(../bg-image/bsurayasu.webp);
+    background-size: cover; background-position: center;
+    background-repeat: no-repeat; background-attachment: fixed;
+    padding-left:8%;
+}
+
+/* 見出し */
+header{
+    width:100%; padding: 30px; height:auto;
+    display:flex; flex-direction:column;
+}
+img.logo{ width:360px;
+    margin:36px 40px 0px 16%;
+}
+a.top{color: black; font-size:16px; 
+    text-align: center; padding-right: 25%;}
+
+/* 本文、BS浦安の活動予定 */
+main.container{width:100%;
+    padding-left:4%; margin-bottom: 80px;
+}
+/* 冒頭の説明文 */
+.division-1{
+    width: 80%; padding: 4%; 
+}
+h3{margin-top: 20px; }
+p.briefing{
+    margin-top: 16px; margin-left: 16%; padding-right:36%;
+    font-size: 14px; color: black; font-weight: 600;
+}
+
+/* ベイシニアh本部のイベント */
+.department{
+
+}
+img.bar{
+    display: block; margin-top: 20px; height: 36px;
+}
+table.hqevents{
+    width: 80%; 56px;}
+th.title{width:120px;}
+th.content{width:80%;}
+table th,tr,td{
+    border-bottom: solid 1px blue; padding:0px 12px;
+}
+
+/* 各部会主催のイベント */
+.department{
+    margin-top: 24px;
+}
+p.incharge{font-size: 14px; padding-left:10%;}
+table.special,.regular,.seasonal{
+    padding-left:8%;
+}
